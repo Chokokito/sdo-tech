@@ -1,5 +1,6 @@
+import React from "react";
 import Lottie from "lottie-react";
-import logoAnimation from "../../assets/lottie/logo.json";
+import logoAnimation from "../../assets/Lottie/logo.json";
 
 export default function LogoAnimated() {
   return (

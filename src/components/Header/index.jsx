@@ -8,12 +8,12 @@ const Header = () => {
     <header className="w-[100%] h-[100px] flex items-center bg-white justify-around p-1.5">
       <LogoAnimated></LogoAnimated>
       <motion.div
-        className="flex"
+        className="flex display-none sm:display-flex"
         animate={{ y: 0 }}
         initial={{ y: -100 }}
         transition={{ staggerChildren: 0.5, duration: 0.5 }}
       >
-        <ul className="flex gap-7 items-center text-[1.2rem] justify-between font-sans ">
+        <ul className="flex gap-7 items-center text-[1.2rem] justify-between font-sans display-none sm:display-flex">
           <li className="text-black p-5 font-extralight">
             <Link
               href=""
