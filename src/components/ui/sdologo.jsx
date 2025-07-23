@@ -1,8 +1,8 @@
 export default function SDOLogo() {
   return (
     <svg
-      width="230"
-      height="159"
+      width="400"
+      height="auto"
       viewBox="0 0 449 159"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
