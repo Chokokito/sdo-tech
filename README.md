@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SDO Tecnologia
 
-## Getting Started
+![SDO Logo](./src/assets/Lottie/logo.json)
 
-First, run the development server:
+> **Energia e Transformação Digital para o seu negócio**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Sobre o Projeto
+
+SDO Tecnologia é uma plataforma moderna desenvolvida com Next.js, React e Tailwind CSS, focada em soluções digitais e energéticas para empresas que buscam inovação, eficiência e crescimento sustentável.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/) 15+
+- [React](https://react.dev/) 19+
+- [Tailwind CSS](https://tailwindcss.com/) 4+
+- [Lottie React](https://lottiefiles.com/) para animações
+- [Lucide React](https://lucide.dev/) para ícones
+- [Framer Motion](https://www.framer.com/motion/) para animações de UI
+
+---
+
+## 📦 Estrutura do Projeto
+
+```
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   └── globals.css
+│   ├── components/
+│   │   ├── Header/
+│   │   ├── Hero/
+│   │   ├── MoreAbout/
+│   │   ├── Reactbites/
+│   │   ├── ui/
+│   │   └── main-button.jsx
+│   ├── assets/
+│   │   ├── Images/
+│   │   └── Lottie/
+│   │       └── logo.json
+│   └── lib/
+│       └── utils.js
+└── public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💡 Como rodar localmente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Instale as dependências
+npm install
 
-## Learn More
+# Rode o projeto em modo desenvolvimento
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Acesse [http://localhost:3000](http://localhost:3000) para visualizar.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌟 Funcionalidades
 
-## Deploy on Vercel
+- Interface responsiva e moderna
+- Animações suaves com Framer Motion e Lottie
+- Componentização para fácil manutenção
+- Suporte a temas e customização
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📲 Deploy
+
+O projeto está pronto para deploy em plataformas como [Vercel](https://vercel.com/) ou [Netlify](https://www.netlify.com/).
+
+---
+
+## 👤 Autor
+
+Feito com 💚 por [Chokokito](https://github.com/Chokokito)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob licença MIT. Veja o arquivo LICENSE para mais detalhes.
