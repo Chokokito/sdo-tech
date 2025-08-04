@@ -1,7 +1,7 @@
 export default function SDOLogo() {
   return (
     <svg
-      width="400"
+      width="300"
       height="auto"
       viewBox="0 0 449 159"
       fill="none"
