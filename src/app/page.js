@@ -5,6 +5,7 @@ import FuzzyText from "@/components/Reactbites/FuzzyText";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import MoreAbout from "@/components/MoreAbout";
+import CustomersList from "@/components/CustomersList";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header></Header>
       <Hero></Hero>
       <MoreAbout></MoreAbout>
+      <CustomersList></CustomersList>
     </div>
   );
 }

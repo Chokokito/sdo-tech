@@ -26,7 +26,7 @@ export const InteractiveHoverButton = React.forwardRef(
               pulse
             )}
           ></div>
-          <span className="inline-block transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0 ">
+          <span className="inline-block transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0 top-0">
             {children}
           </span>
         </div>

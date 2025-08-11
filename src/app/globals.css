@@ -289,3 +289,26 @@ header {
   -webkit-box-shadow: 5px 45px 65px -4px rgba(0, 0, 0, 0.79);
   -moz-box-shadow: 5px 45px 65px -4px rgba(0, 0, 0, 0.79);
 }
+
+.infinite-scroll {
+  will-change: transform;
+  animation: scrolling 10s linear infinite;
+}
+.infinite-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.test-shadow {
+  box-shadow: 0px 9px 39px 6px rgba(91, 104, 219, 0.75) inset;
+  -webkit-box-shadow: 0px 2px 39px 6px rgba(91, 104, 219, 0.75) inset;
+  -moz-box-shadow: 0px 9px 39px 6px rgba(91, 104, 219, 0.75) inset;
+}
