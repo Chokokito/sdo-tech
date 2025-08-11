@@ -1,3 +1,4 @@
+import { ShineBorder } from "../magicui/shine-border";
 import RotatingText from "../Reactbites/RotatingText";
 import SDOLogo from "../ui/sdologo";
 
@@ -17,7 +18,7 @@ export default function MoreAbout() {
               " o Desempenho",
               " a Excelência",
             ]}
-            mainClassName="whitespace-nowrap transition-all bg-sky-900 text-slate-50 rounded-lg w-full"
+            mainClassName="whitespace-nowrap transition-all bg-blue-700 text-slate-50 rounded-lg w-full"
             staggerFrom={"last"}
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
@@ -36,11 +37,11 @@ export default function MoreAbout() {
           projetos em cabeamento estruturado, redes, segurança eletrônica e
           sistemas de energia.
         </p>
-        <button className="uppercase flex text-lg text-slate-50 items-center justify-around transition-colors horizontal-shadow bg-blue-800 hover:bg-blue-900 p-4 rounded-[15px] cursor-pointer w-full md:min-w-[300px] poppins-regular ">
+        <button className="uppercase flex text-lg text-slate-50 items-center justify-around transition-colors horizontal-shadow bg-blue-700 hover:bg-blue-900 p-4 rounded-[15px] cursor-pointer w-full md:min-w-[300px] poppins-regular ">
           Conheça mais sobre a SDO
         </button>
       </div>
-      <div className="w-full md:w-1/2 flex items-center justify-center mt-8 md:mt-0">
+      <div className="w-[50%] md:w-1/2 flex items-center justify-center mt-8 md:mt-0">
         <SDOLogo />
       </div>
     </div>

@@ -3,7 +3,7 @@ import OrnamentButton from "../ui/ornament";
 import { ClockPlus } from "lucide-react";
 import { motion } from "framer-motion";
 import { InteractiveHoverButton } from "../magicui/interactive-hover-button";
-
+import { ShineBorder } from "../magicui/shine-border";
 /* Saporra desse vh é que tá bugando tudo, tem que mudar pra não quebrar
       na horizontal do celular */
 
@@ -13,14 +13,14 @@ export default function Hero() {
       {" "}
       <motion.div
         initial
-        className="bg-[url(/Images/HeroBG.png)] transition-all flex flex-col sm:w-[80vw] w-[90vw] min-h-[100vh] max-h-[auto] justify-center items-center md:rounded-[70px] sm:rounded-[50px] rounded-[40px] shadow-lg high-shadow p-[5%] md-p-[10%]"
+        className=" overflow-hidden bg-[url(/Images/HeroBG.png)] transition-all flex flex-col sm:w-[80vw] w-[90vw] min-h-[90vh] max-h-[auto] justify-center items-center md:rounded-[70px] sm:rounded-[50px] rounded-[40px] shadow-lg high-shadow p-[5%] md-p-[10%]"
       >
         <BlurText
           text="O seu parceiro em energia e transformação digital."
           delay={100}
           animateBy="words"
           direction="top"
-          className="transition-all  lg:text-[38px] md:text-[26px] text-[28px] text-center mb-4 text-slate-100 raleway uppercase  sm:justify-center align-center whitespace-nowrap sm:max-w-[75%] poppins-semibold"
+          className="transition-all  lg:text-[56px] md:text-[26px] text-[28px] text-center mb-4 text-slate-100 raleway uppercase  sm:justify-center align-center whitespace-nowrap sm:max-w-[75%] poppins-semibold"
         ></BlurText>
         <BlurText
           text="Soluções completas em cabeamento, segurança e infraestrutura para empresas que exigem eficiência."
