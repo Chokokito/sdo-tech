@@ -1,3 +1,6 @@
+import { Poppins } from "next/font/google";
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
+
 export default function SectionTwo() {
   return (
     <div className="flex items-center justify-center p-8 w-full h-auto flex-col-reverse md:flex-row-reverse gap-6">

@@ -6,7 +6,7 @@ export default function MoreAbout() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 sm:px-8 md:px-[10vw] lg:px-[12vw] py-8 box-border  bg-white/80 rounded-[24px] shadow-lg">
       <div className="flex flex-col w-full md:w-1/2 h-auto justify-center items-start p-4 md:p-8 gap-5">
-        <h2 className="flex flex-col items-start justify-center poppins-regular transition text-left text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-slate-950 font-extralight mb-8 leading-tight">
+        <h2 className="flex flex-col items-start justify-center poppins-regular transition text-left text-4xl sm:text-3xl md:text-4xl lg:text-5xl text-slate-950 font-extralight mb-8 leading-tight">
           <span className="mr-2 text-nowrap">
             Mais que Serviços, <br />
             Compromisso com
