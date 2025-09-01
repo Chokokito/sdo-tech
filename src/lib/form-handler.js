@@ -6,7 +6,7 @@ export async function submitToWeb3Forms(data) {
       Accept: "application/json",
     },
     body: JSON.stringify({
-      apikey: process.env.WebFORMS,
+      apikey: process.env.NEXT_PUBLIC_WebFORMS,
       ...data,
     }),
   });
