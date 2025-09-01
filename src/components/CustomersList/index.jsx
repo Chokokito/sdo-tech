@@ -12,8 +12,8 @@ export default function CustomersList() {
   const allImages = [...images, ...images, ...images, ...images];
 
   return (
-    <div className="flex flex-col justify-center items-center w-full py-6 bg-indigo-100/50 border-b-2 border-t-2 border-indigo-300 shadow-sm overflow-x-hidden test-shadow ">
-      <h1 className="text-[1rem] md:text-2xl font-semibold text-indigo-900 mb-6 poppins-medium">
+    <div className="flex flex-col justify-center items-center w-full py-6  border-b-2 border-t-2 border-indigo-300/50  overflow-x-hidden  ">
+      <h1 className="text-[1rem] md:text-2xl font-semibold text-indigo-700 mb-6 poppins-medium">
         Quem já escolheu fazer diferente
       </h1>
       <div className="relative w-full overflow-x-hidden">

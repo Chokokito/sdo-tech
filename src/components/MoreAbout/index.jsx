@@ -37,7 +37,7 @@ export default function MoreAbout() {
           projetos em cabeamento estruturado, redes, segurança eletrônica e
           sistemas de energia.
         </p>
-        <button className="uppercase flex text-lg text-slate-50 items-center justify-around transition-colors horizontal-shadow bg-blue-700 hover:bg-blue-900 p-4 rounded-[15px] cursor-pointer w-full md:min-w-[300px] poppins-regular ">
+        <button className="uppercase flex text-lg text-slate-50 items-center justify-around transition-colors  bg-blue-700 hover:bg-blue-900 p-4 rounded-[15px] cursor-pointer w-full md:min-w-[300px] poppins-regular ">
           Conheça mais sobre a SDO
         </button>
       </div>

@@ -36,7 +36,7 @@ export const InteractiveHoverButton = React.forwardRef(
             text
           )}
         >
-          <span>{children}</span>
+          <span>Agora!</span>
           <ArrowRight />
         </div>
       </button>

@@ -7,7 +7,7 @@ export default function ServicesSec() {
   return (
     <div>
       <div className="flex flex-col items-center justify-center text-center p-8">
-        <h2 className="poppins-semibold text-2xl md:text-3xl lg:text-4xl text-slate-800 mb-4">
+        <h2 className="poppins-semibold text-2xl md:text-3xl lg:text-5xl text-slate-800 mb-4">
           Soluções completas para sua <br></br>{" "}
           <span className="azulao">infraestrutura</span> de{" "}
           <span className="azulao">tecnologia</span> .
