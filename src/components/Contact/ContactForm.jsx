@@ -84,11 +84,6 @@ export default function ContactForm() {
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit(onSubmit)}>
-            <input
-              type="hidden"
-              name="access_key"
-              value={process.env.NEXT_PUBLIC_WebFORMS}
-            ></input>
             <div className="flex flex-col gap-6">
               <div className="grid gap-2">
                 <Label htmlFor="email" className="poppins-regular text-xl">

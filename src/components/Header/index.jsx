@@ -8,7 +8,9 @@ const Header = () => {
   return (
     <header className="w-full h-auto bg-white/40 flex lg:grid lg:grid-cols-3 items-center justify-between overflow-hidden rounded-b-[10px] p-3 backdrop-blur-lg">
       <div className="flex justify-center">
-        <LogoAnimated />
+        <Link href="/">
+          <LogoAnimated />
+        </Link>
       </div>
       <motion.div
         className="hidden lg:flex justify-center h-60px"
@@ -19,7 +21,7 @@ const Header = () => {
         <ul className="flex gap-7 items-center text-[1.2rem] justify-center font-sans">
           <li className="text-black p-5 font-extralight">
             <Link
-              href=""
+              href="/about"
               className="inline-block min-w-[80px] font-extralight hover:text-blue-500 hover:font-light transition-all"
             >
               Sobre
