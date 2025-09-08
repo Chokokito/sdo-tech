@@ -2,6 +2,7 @@ import BlurText from "../Reactbites/BlurText";
 import OrnamentButton from "../ui/ornament";
 import { ClockPlus } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { InteractiveHoverButton } from "../magicui/interactive-hover-button";
 import { ShineBorder } from "../magicui/shine-border";
 /* Saporra desse vh é que tá bugando tudo, tem que mudar pra não quebrar
@@ -29,9 +30,11 @@ export default function Hero() {
           direction="top"
           className=" mb-8 text-slate-50 raleway sm:justify-center align-center poppins-light text-[22px] text-center sm:max-w-[70%]"
         ></BlurText>
-        <InteractiveHoverButton className="w-400px p-5 text-lg">
-          Solicite um orçamento!
-        </InteractiveHoverButton>
+        <Link className="w-500px p-5 text-lg" href={"#contact"}>
+          <InteractiveHoverButton className="w-500px p-5 text-2xl">
+            Solicite um orçamento!
+          </InteractiveHoverButton>
+        </Link>
       </motion.div>
     </div>
   );
