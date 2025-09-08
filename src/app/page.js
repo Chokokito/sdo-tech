@@ -10,7 +10,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default function Home() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Header className={poppins.className}></Header>
       <Hero className={poppins.className}></Hero>
       <MoreAbout className={poppins.className}></MoreAbout>

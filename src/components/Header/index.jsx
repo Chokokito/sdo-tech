@@ -37,7 +37,7 @@ const Header = () => {
           </li>
           <li className="text-black p-5 font-extralight">
             <Link
-              href=""
+              href="#contact"
               className="inline-block min-w-[100px] font-extralight hover:text-blue-500 hover:font-light transition-all"
             >
               Contatos
