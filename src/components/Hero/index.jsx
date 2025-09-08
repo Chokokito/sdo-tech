@@ -1,12 +1,7 @@
 import BlurText from "../Reactbites/BlurText";
-import OrnamentButton from "../ui/ornament";
-import { ClockPlus } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { InteractiveHoverButton } from "../magicui/interactive-hover-button";
-import { ShineBorder } from "../magicui/shine-border";
-/* Saporra desse vh é que tá bugando tudo, tem que mudar pra não quebrar
-      na horizontal do celular */
 
 export default function Hero() {
   return (

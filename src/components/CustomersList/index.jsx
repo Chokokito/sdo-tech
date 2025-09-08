@@ -2,9 +2,13 @@ export default function CustomersList() {
   const images = [
     "/Images/CustomersList/arenamrv-logo.png",
     "/Images/CustomersList/avvale-logo.png",
+    "/Images/CustomersList/cbre-logo.png",
+    "/Images/CustomersList/ch3-logo.png",
+    "/Images/CustomersList/efe-logo.png",
     "/Images/CustomersList/evertical-logo.png",
     "/Images/CustomersList/fundacaosagres-logo.png",
     "/Images/CustomersList/grupogps-logo.png",
+    "/Images/CustomersList/grupohofsaude-logo.png",
     "/Images/CustomersList/icismep-logo.png",
     "/Images/CustomersList/image1.png",
     "/Images/CustomersList/image2.png",
@@ -16,6 +20,7 @@ export default function CustomersList() {
     "/Images/CustomersList/nobrehairface-logo.png",
     "/Images/CustomersList/renapsi-logo.png",
     "/Images/CustomersList/teleinfo-logo.png",
+    "/Images/CustomersList/tecnogera.png",
   ];
   // Duplicar para efeito seamless
   const allImages = [...images, ...images, ...images, ...images];
