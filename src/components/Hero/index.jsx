@@ -13,7 +13,7 @@ export default function Hero() {
       {" "}
       <motion.div
         initial
-        className=" overflow-hidden bg-[url(/Images/Frame.png)] transition-all flex flex-col sm:w-[80vw] w-[90vw] min-h-[90vh] max-h-[auto] justify-center items-center md:rounded-[70px] sm:rounded-[50px] rounded-[40px] shadow-lg high-shadow p-[5%] md-p-[10%] backdrop-blur-3xl"
+        className=" overflow-hidden bg-[url(/Images/Frame.png)] transition-all flex flex-col sm:w-[80vw] w-[90vw] min-h-[90vh]  md:min-h-[80vh] max-h-[auto] justify-center items-center md:rounded-[70px] sm:rounded-[50px] rounded-[40px] shadow-lg high-shadow p-[5%] md-p-[10%] backdrop-blur-3xl"
       >
         <BlurText
           text="O seu parceiro em energia e transformação digital."

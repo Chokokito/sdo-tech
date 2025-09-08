@@ -1,12 +1,21 @@
 export default function CustomersList() {
   const images = [
+    "/Images/CustomersList/arenamrv-logo.png",
+    "/Images/CustomersList/avvale-logo.png",
+    "/Images/CustomersList/evertical-logo.png",
+    "/Images/CustomersList/fundacaosagres-logo.png",
+    "/Images/CustomersList/grupogps-logo.png",
+    "/Images/CustomersList/icismep-logo.png",
     "/Images/CustomersList/image1.png",
     "/Images/CustomersList/image2.png",
     "/Images/CustomersList/image3.png",
     "/Images/CustomersList/image4.png",
     "/Images/CustomersList/image5.png",
     "/Images/CustomersList/image6.png",
-    // Adicione mais imagens se necessário
+    "/Images/CustomersList/nava-logo.png",
+    "/Images/CustomersList/nobrehairface-logo.png",
+    "/Images/CustomersList/renapsi-logo.png",
+    "/Images/CustomersList/teleinfo-logo.png",
   ];
   // Duplicar para efeito seamless
   const allImages = [...images, ...images, ...images, ...images];
@@ -26,7 +35,7 @@ export default function CustomersList() {
                 key={idx}
                 src={src}
                 alt={`Cliente ${idx + 1}`}
-                className={`h-16 w-auto select-none pointer-events-none${
+                className={`h-16 w-auto select-none pointer-events-none grayscale  ${
                   !isLastInBlock ? " mr-10" : ""
                 }`}
                 draggable={false}

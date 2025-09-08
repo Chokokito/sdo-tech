@@ -304,7 +304,7 @@ header {
 
 .infinite-scroll {
   will-change: transform;
-  animation: scrolling 10s linear infinite;
+  animation: scrolling 30s linear infinite;
 }
 .infinite-scroll:hover {
   animation-play-state: paused;

@@ -29,7 +29,7 @@ const Header = () => {
           </li>
           <li className="text-black p-5 font-extralight ">
             <Link
-              href=""
+              href="/services"
               className="inline-block min-w-[100px] font-extralight hover:text-blue-500 hover:font-light transition-all"
             >
               Serviços
@@ -46,16 +46,16 @@ const Header = () => {
         </ul>
       </motion.div>
       <div className="flex justify-center">
-        <InteractiveHoverButton
-          className="bg-blue-600 text-white hover:bg-blue-700 "
-          pulse="bg-white"
-          dot="bg-white text-blue-600"
-          text="text-blue-600 font-bold"
-        >
-          <Link href="" className="text-lg font-extralight">
-            Fale Conosco
-          </Link>
-        </InteractiveHoverButton>
+        <Link href={"#contact"}>
+          <InteractiveHoverButton
+            className="bg-blue-600 text-white hover:bg-blue-700 "
+            pulse="bg-white"
+            dot="bg-white text-blue-600"
+            text="text-blue-600 font-bold"
+          >
+            <p className="text-lg font-extralight">Fale Conosco</p>
+          </InteractiveHoverButton>
+        </Link>
       </div>
     </header>
   );

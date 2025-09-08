@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 export default function SectionTwo() {
   return (
@@ -15,9 +15,14 @@ export default function SectionTwo() {
           </p>
         </div>
         <div className="flex align-start justify-start">
-          <button className="py-5 px-5 bg-blue-700 cursor-pointer hover:bg-blue-800 text-white poppins-regular md:w-[50%] w-full rounded-b-3xl rounded-r-3xl">
-            Ver opções de conectividade
-          </button>
+          <Link
+            href="/services#wifi"
+            className="md:w-[80%] w-full rounded-b-3xl rounded-r-3xl"
+          >
+            <button className="py-5 px-5 bg-blue-700 cursor-pointer hover:bg-blue-800 text-white poppins-regular md:w-[50%] w-full rounded-b-3xl rounded-r-3xl">
+              Ver opções de conectividade
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex items-center justify-center">

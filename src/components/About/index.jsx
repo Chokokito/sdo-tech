@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 import Card from "./card";
 import { FileBox } from "lucide-react";
 import Contact from "../Contact";
+import { ShineBorder } from "../magicui/shine-border";
 
 export default function About() {
   return (
-    <div className=" flex flex-col items-center justify-center px-10">
+    <div className=" flex flex-col items-center justify-center ">
       <motion.div
         className="flex md:flex-row flex-col items-center justify-between gap-10 p-10 border-b-[1px] rounded-b-4xl rounded-l-4xl sm:w-[80vw] w-auto  max-h-[auto] bg-blue-600"
         layout
@@ -39,8 +40,8 @@ export default function About() {
           <SDOWLogo className="w-2 mb-10 " />
         </div>
       </motion.div>
-      <div className="flex flex-col items-center justify-center w-full mt-20">
-        <h1 className="poppins-bold text-4xl">
+      <div className="flex flex-col items-center justify-center w-full m-20 p-5">
+        <h1 className="poppins-bold text-4xl text-center">
           <b className="text-blue-600">Inteligência</b>, do Início ao Fim.
         </h1>
         <p className="poppins-regular md:max-w-[70%] lg:max-w-[50%] w-full pt-5 pl-0 text-lg p-4 text-center text-slate-700">
@@ -48,7 +49,7 @@ export default function About() {
           perfeitamente alinhada às suas necessidades. Atuamos em um processo de
           quatro etapas:
         </p>
-        <motion.div className="flex md:flex-row flex-col items-center justify-center gap-10 p-10 sm:w-[80vw] w-auto  max-h-[auto] bg-transparent mt-20">
+        <motion.div className="flex md:flex-row flex-col items-center justify-center gap-10 p-10 sm:w-[80vw] w-auto  max-h-[auto] bg-transparent mt-10">
           <Card
             content={
               "Mergulhamos na sua operação para entender seus desafios e objetivos. Um bom projeto começa com as perguntas certas."

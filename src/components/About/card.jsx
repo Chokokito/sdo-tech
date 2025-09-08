@@ -1,5 +1,6 @@
 import { FileBox } from "lucide-react";
 import React from "react";
+import { ShineBorder } from "../magicui/shine-border";
 export default function Card({ children, content, icon }) {
   const cardRef = React.useRef(null);
 
@@ -28,6 +29,7 @@ export default function Card({ children, content, icon }) {
       onMouseLeave={handleMouseLeave}
       style={{ willChange: "transform" }}
     >
+      <ShineBorder shineColor="#1030ff"></ShineBorder>
       <h1 className="poppins-semibold text-black/80 text-left text-lg mb-2">
         {children}
       </h1>

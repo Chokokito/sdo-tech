@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SectionTwo() {
   return (
     <div className="flex items-center justify-center p-8 w-full h-auto flex-col-reverse md:flex-row-reverse gap-6">
@@ -15,9 +17,14 @@ export default function SectionTwo() {
           </p>
         </div>
         <div className="flex align-start justify-start">
-          <button className="py-5 px-5 bg-blue-700 cursor-pointer hover:bg-blue-800 text-white poppins-regular md:w-[50%] w-full rounded-b-3xl rounded-r-3xl">
-            Conhecer sistemas de segurança
-          </button>
+          <Link
+            href="/services#security"
+            className="md:w-[90%] w-full rounded-b-3xl rounded-r-3xl"
+          >
+            <button className="py-5 px-5 bg-blue-700 cursor-pointer hover:bg-blue-800 text-white poppins-regular md:w-[50%] w-full rounded-b-3xl rounded-r-3xl">
+              Conhecer sistemas de segurança
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex items-center justify-center">

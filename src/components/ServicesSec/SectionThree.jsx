@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SectionOne() {
   return (
     <div className="flex items-center justify-center p-8 w-full h-auto flex-col-reverse md:flex-row gap-6">
@@ -15,9 +17,11 @@ export default function SectionOne() {
           </p>
         </div>
         <div>
-          <button className="py-5 px-5 bg-blue-700 cursor-pointer hover:bg-blue-800 text-white poppins-regular md:w-[50%] w-full rounded-b-3xl rounded-l-3xl">
-            Explorar projetos de energia
-          </button>
+          <Link href="/services#energy">
+            <button className="py-5 px-5 bg-blue-700 cursor-pointer hover:bg-blue-800 text-white poppins-regular md:w-[50%] w-full rounded-b-3xl rounded-l-3xl">
+              Explorar projetos de energia
+            </button>
+          </Link>
         </div>
       </div>
       <div className="flex items-center justify-center">
