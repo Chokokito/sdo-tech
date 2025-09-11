@@ -31,7 +31,7 @@ export default function MoreAbout() {
           />
         </h2>
         <p className="poppins-light text-wrap pb-7">
-          Com mais de 7 anos de atuação, a SDO Tecnologia entrega soluções em
+          Com mais de 10 anos de atuação, a SDO Tecnologia entrega soluções em
           infraestrutura, energia e tecnologia com alto padrão técnico e foco em
           eficiência. Atuando em ambientes que vão de escritórios a grandes
           indústrias, a empresa se destaca pela confiabilidade na execução de

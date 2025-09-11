@@ -21,13 +21,14 @@ export default function CustomersList() {
     "/Images/CustomersList/renapsi-logo.png",
     "/Images/CustomersList/teleinfo-logo.png",
     "/Images/CustomersList/tecnogera.png",
+    "/Images/CustomersList/qualicorp-logo.png",
   ];
   // Duplicar para efeito seamless
   const allImages = [...images, ...images, ...images, ...images];
 
   return (
     <div className="flex flex-col justify-center items-center w-full py-6  border-b-2 border-t-2 border-indigo-300/50  overflow-x-hidden  ">
-      <h1 className="text-[1rem] md:text-2xl font-semibold text-indigo-700 mb-6 poppins-medium">
+      <h1 className="text-[1rem] md:text-2xl  text-blue-700 mb-6 poppins-semibold">
         Quem já escolheu fazer diferente
       </h1>
       <div className="relative w-full overflow-x-hidden">
@@ -40,7 +41,7 @@ export default function CustomersList() {
                 key={idx}
                 src={src}
                 alt={`Cliente ${idx + 1}`}
-                className={`h-16 w-auto select-none pointer-events-none grayscale  ${
+                className={`h-auto w-28 select-none pointer-events-none grayscale  ${
                   !isLastInBlock ? " mr-10" : ""
                 }`}
                 draggable={false}

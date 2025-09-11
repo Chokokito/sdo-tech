@@ -46,7 +46,7 @@ const Header = () => {
         </ul>
       </motion.div>
       <div className="flex justify-center">
-        <Link href={"#contact"}>
+        <Link href={"https://wa.link/t4yu1o"} target="_blank">
           <InteractiveHoverButton
             className="bg-blue-600 text-white hover:bg-blue-700 "
             pulse="bg-white"

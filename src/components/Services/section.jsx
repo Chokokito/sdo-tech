@@ -29,7 +29,7 @@ export default function ServicesSection({ className }) {
         <ul className="list-disc pl-6 mt-2 text-slate-700 poppins-regular">
           <li>Cabeamento Estruturado (Cat5E, Cat6, 6A e superiores)</li>
           <li>Redes de Fibra Óptica (Backbones e Links Dedicados)</li>
-          <li>Organização e Montagem de Racks e Data Centers</li>
+          <li>Organização e Montagem de Racks e Datacenters</li>
           <li>Certificação e Mapeamento de Pontos de Rede</li>
           <li>Infraestrutura para Redes Elétricas e de Telecom</li>
         </ul>
